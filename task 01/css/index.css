@@ -1,0 +1,165 @@
+    #containder{
+    	margin-left:210px;
+    	margin-right:auto;
+    }
+    #header{
+    	width:1480px;
+		height:265px;
+		background:gray url(../img/01.jpg);
+		   }
+	#head{
+		width:1480px;
+		height:265px;
+		 }
+	#nav li{
+		background:gray url(../img/09.jpg);
+		width: 210px;
+		margin-right: 1px;
+		float:left;
+
+	}
+	#nav a{
+		color:gray;
+		font-size:30px;
+		font-family: '微软雅黑';
+		display:block;
+		width:210px;
+		height:40px;
+	    text-align: center;
+	}
+	#nav a:hover{
+		color:blue;
+		background:url(../img/03.jpg);
+	}
+	#main1{
+		height: 400px;
+
+    }
+	#lside{
+		height:400px;
+		width:500px;
+		border:1px solid;
+		float:left;
+	}
+	.subtitle {
+		
+		height:42px;
+	}
+    .subtitle img {
+		float:left;
+	}
+	.subtitle h1{
+		margin-top:7px;
+		font-size: 25px;
+		font-family:'微软雅黑',SimHei,sans-serif;
+		float:left;
+	}
+	.subtitle a{
+		font-size: 25px;
+		color:gray;
+		float:right;
+	}	
+	.subtitle a:hover{
+		color:blue;
+	}
+	#rside{
+		height:400px;
+		width:980px;
+		float:left;
+		border:1px solid;
+	}
+
+	#zuo img{
+        margin-left:20px;
+		padding:6px;
+		float:left;
+		background: blue;
+		clear:both;
+		}
+		#you{
+			width:400px;
+			float:left;
+			
+			height:350px;
+		}
+		#up{
+			width:450px;
+			height:115px;
+			float:left;
+			margin-left: 20px;
+			margin-top: 10px;
+			
+		}
+		#up h6{
+			font-size:23px;
+			margin-left: 15px;
+		}
+		#up p{
+	
+			text-indent:37px;
+			font-size:18px;
+		}
+		#jichu{
+			color:red;
+		}
+		#down{
+			width:400px;
+			height:200px;
+			margin-left:7px;
+			clear:both;
+		}
+
+	#rside h2{
+	    font-size:20px;
+	}
+
+    #art{
+    	margin-left: 10px;
+		float:left;
+	}
+    #art li{
+    	margin-top: 15px;
+    	font-size:20px;
+    	padding-left: 10px;
+    	background:url(../img/10.jpg) no-repeat;
+	}
+    #art a:hover{
+    	color:blue;
+    }
+	#m1{
+		width:640px;
+		height:310px;
+        border:1px solid;
+        float:left;
+	}
+	#m2{
+		width:640px;
+		height:310px;
+        border:1px solid;
+        float:left;
+	}
+	#m3{
+		width:200px;
+		height:310px;
+        border:1px solid;
+        float:left;
+	}
+	.subtitle1 li{margin-left: 35px;
+		font-size:25px;
+		float:left;
+
+
+	}
+	.subtitle1 a:hover{
+		color:blue;
+	}
+	.subtitle1{
+		height:41px;
+		border:1px solid;
+		}
+	#footer{
+
+	}
+	
+
+	
