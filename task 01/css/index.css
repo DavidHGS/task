@@ -40,7 +40,7 @@
 	}
 
 	.subtitle {
-		border-bottom: 10px solid #0384A8;
+		border-bottom: 7px solid #0384A8;
 		height:42px;
 		clear:both;
 	}
@@ -206,7 +206,7 @@
 		font-size:32px;
 		color:#027CA4;
 		font-weight:bold;
-		border-bottom: 10px solid #0384A8;
+		border-bottom: 7px solid #0384A8;
 		}
 	#fen{
 		margin-top:20px;
@@ -227,6 +227,17 @@
     text-align: center;
     padding: 10px 0 10px 0;
     color:white;
+	}
+	#span1{font-size:30px;
+		font-weight:bold;
+		font-family:"Microsoft Yahei";
+		color:#090909;
+
+	}
+	#span2{
+		font-size:20px;
+		color:#007BA5;
+		font-weight:bold;
 	}
 	
 
