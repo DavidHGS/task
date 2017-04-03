@@ -13,7 +13,7 @@
 		 }
 	#nav li{
 		background:gray url(../img/09.jpg);
-		width: 210px;
+		width: 210.41px;
 		margin-right: 1px;
 		float:left;
 
@@ -31,28 +31,32 @@
 		color:blue;
 		background:url(../img/03.jpg);
 	}
-	#main1{
-		height: 400px;
 
-    }
 	#lside{
-		height:400px;
-		width:500px;
-		border:1px solid;
+		height:420px;
+		width:490px;
+		
 		float:left;
 	}
+
 	.subtitle {
-		
+		border-bottom: 10px solid #0384A8;
 		height:42px;
+		clear:both;
 	}
     .subtitle img {
 		float:left;
 	}
 	.subtitle h1{
 		margin-top:7px;
-		font-size: 25px;
+		font-size: 30px;
 		font-family:'微软雅黑',SimHei,sans-serif;
 		float:left;
+		
+	}
+	.subtitle span{
+		font-size :25px;
+		color:blue;
 	}
 	.subtitle a{
 		font-size: 25px;
@@ -62,60 +66,99 @@
 	.subtitle a:hover{
 		color:blue;
 	}
-	#rside{
-		height:400px;
-		width:980px;
-		float:left;
-		border:1px solid;
+	.more{
+	float: right;
+    height: 48px;
+    background: url(../img/more.jpg) no-repeat center;
+    width: 70px;
+    display: block;
 	}
-
-	#zuo img{
-        margin-left:20px;
-		padding:6px;
+	#rside{
+		margin-left: 20px;
+		height:420px;
+		width:970px;
 		float:left;
-		background: blue;
+		
+	}
+    #xia{
+    	margin-top:0px;
+    	float-left;
+    }
+
+    #tupian h1{
+    	float:left;
+    	margin-top:5px;
+    	margin-left:60px;
+    	font-size:17px;
+    }
+    #zuo{margin-top:27px;
+        height:331px;
+    	width:450px;
+    	display:inline-block;
+
+    }
+	#zuo img{
+        margin-left:5px;
+		float:left; 
 		clear:both;
 		}
+	
 		#you{
-			width:400px;
-			float:left;
-			
-			height:350px;
+			width:450px;
+			float:right;
+			height:320px;
+			margin-right:20px;
+			margin-top:20px;
 		}
 		#up{
-			width:450px;
+			
 			height:115px;
 			float:left;
 			margin-left: 20px;
 			margin-top: 10px;
+			margin-bottom:10px;
 			
 		}
 		#up h6{
+			clear:both;
 			font-size:23px;
 			margin-left: 15px;
 		}
 		#up p{
 	
-			text-indent:37px;
+			text-indent:30px;
 			font-size:18px;
 		}
 		#jichu{
-			color:red;
+			font-family: "Microsoft Yahei";
+			font-weight: bold;
 		}
-		#down{
-			width:400px;
-			height:200px;
+		#down{clear:both;
+			height:50px;
 			margin-left:7px;
-			clear:both;
+		}
+		#art1{
+			margin-top:10px;
 		}
 
 	#rside h2{
 	    font-size:20px;
 	}
-
+	    #art1 li{
+	    margin-left:20px;
+    	margin-top: 15px;
+    	font-size:20px;
+    	padding-left: 10px;
+    	background:url(../img/10.jpg) no-repeat;
+	}
+    #art1 a:hover{
+    	color:blue;}
     #art{
-    	margin-left: 10px;
+    	width:450px;
+    	height:250px;
+    	margin-left: 40px;
 		float:left;
+		margin-top:0px;
 	}
     #art li{
     	margin-top: 15px;
@@ -127,24 +170,25 @@
     	color:blue;
     }
 	#m1{
-		width:640px;
-		height:310px;
-        border:1px solid;
+		width:630px;
+		height:325px;
+        
         float:left;
 	}
 	#m2{
-		width:640px;
-		height:310px;
-        border:1px solid;
+		margin-left:20px;
+		width:630px;
+		height:325px;
         float:left;
 	}
-	#m3{
-		width:200px;
-		height:310px;
-        border:1px solid;
+	#m3{margin-left: 27px;
+		margin-bottom:50px;
+		width:160px;
+		height:325px;
+       border:1px solid;
         float:left;
 	}
-	.subtitle1 li{margin-left: 35px;
+	.subtitle1 li{margin-left: 15px;
 		font-size:25px;
 		float:left;
 
@@ -155,10 +199,34 @@
 	}
 	.subtitle1{
 		height:41px;
-		border:1px solid;
+	
+		
 		}
-	#footer{
+	#zhan{
+		font-size:32px;
+		color:#027CA4;
+		font-weight:bold;
+		border-bottom: 10px solid #0384A8;
+		}
+	#fen{
+		margin-top:20px;
+		clear:both;
+		float:left;
+		margin-left:0px;
+	}
 
+	#footer{
+		clear:both;
+		width:1480px;
+		height:120px;
+		background:#0484A9;
+
+	}
+	.wei{   
+    float: none;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    color:white;
 	}
 	
 
