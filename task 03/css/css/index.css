@@ -209,23 +209,25 @@
 		text-align: center;
 		margin-left: 15px;
 		font-size:25px;
+
 	}
 	.line li{
+		margin-top: 3px;
 		float:left;
 	}
 	.subtitle1 a:hover{
+
 		color:blue;
 	}
 	.subtitle1{
 		height:41px;
 	
-		
 		}
 	#zhan{
 		font-size:32px;
 		color:#027CA4;
 		font-weight:bold;
-		border-bottom: 7px solid #0384A8;
+		border-bottom: 3px solid #0384A8;
 		}
 
 	#footer{
