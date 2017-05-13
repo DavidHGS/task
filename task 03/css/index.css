@@ -12,11 +12,15 @@
      .nav li a{
      	color:white;
      }
+
+     .nav li a:hover{
+     	color:#006896;
+     }
      .nav ul li a{
      	color:black;
      	text-align: center;
      }
-     .nav li a:hover{
+     .nav ul li a:hover{
      	color:#006896;
      }
 
