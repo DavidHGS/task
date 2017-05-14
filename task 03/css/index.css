@@ -86,10 +86,9 @@
           }
 }	
     #rside{
+    	margin-top:5px;
 		background:url(../img/05.jpg) no-repeat;
 		background-position: 10px 0px;
-		height:406px;
-		
 	}
     #zuo{
     	float:left; 
@@ -145,7 +144,7 @@
     	color:black;}		
     /*通知公告*/
 
-   #lside{
+   #lside{margin-top: 5px;
        background: url(../img/04.jpg) no-repeat;
        background-position:10px 0px; 
       }  
