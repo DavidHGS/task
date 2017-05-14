@@ -39,8 +39,8 @@
 
 }
 
-     #containder{
-     	width:1480px;
+    #containder{
+     	width:100%;
     	margin-left: auto;
     	margin-right:auto;
     }
@@ -51,51 +51,27 @@
 		   }
 	#head{
         background:gray url(../img/01.jpg);
-		width:1480px;
+		width:100%;
 		height:265px;
 		 }
 
-    #main1{
-    	width:100%;
-    	height: 420px;
-
+	/*专题要闻*/
+    h2{
+    	margin-top: 5px;
+    	display:inline;
+    	padding-left:45px;
     }
+	#span1{
+		font-size:30px;
+		font-weight:bold;
+		font-family:"Microsoft Yahei";
+		color:#090909;
 
-	#lside{
-		height:420px;
-		
-		float:left;
 	}
-
-	.subtitle {
-		border-bottom: 7px solid #0384A8;
-		height:42px;
-		clear:both;
-	}
-    .subtitle img {
-		float:left;
-	}
-	.subtitle h1{
-		margin-top:7px;
-		font-size: 30px;
-		font-family:'微软雅黑',SimHei,sans-serif;
-		float:left;
-		
-	}
-	.subtitle span{
-		font-size :25px;
-		color:blue;
-	}
-	.subtitle a{
-		font-size: 25px;
-		color:gray;
-		float:right;
-	}	
-	.subtitle a:hover{
-		color:blue;
-	}
-	.subtitle span{
-		padding-bottom: 0px;
+	#span2{
+		font-size:20px;
+		color:#007BA5;
+		font-weight:bold;
 	}
 	.more{
 	float: right;
@@ -103,19 +79,18 @@
     background: url(../img/more.jpg) no-repeat center;
     width: 70px;
     display: block;
-	}
-	#rside{
-		height:420px;
-		float:left;
+          }
+    .line{
+    	border-top:0.3em solid #006986;
+    	margin-top:10px;
+          }
+}	
+    #rside{
+		background:url(../img/05.jpg) no-repeat;
+		background-position: 10px 0px;
+		height:406px;
 		
 	}
-    #xia{
-    	width: 100%;
-    	height:370px;
-    	margin-top:0px;
-    }
-    
-    }
     #zuo{
     	float:left; 
     	margin-top:27px;
@@ -126,20 +101,16 @@
 	#zuo img{
         margin-left:5px;
 		}
-		#zuo p{
-			text-align: center;
+	#zuo p{
+		text-align: center;
 		}
 	
-		#you{
-			width:450px;
-			float:right;
+	#you{
 			height:320px;
 			margin-top:10px;
 		}
-		#up{
+	#up{
 			
-			height:150px;
-			float:left;
 			margin-left: 20px;
 			margin-bottom:10px;
 			
@@ -162,22 +133,58 @@
 			height:160px;
 			margin-left:7px;
 		}
-		#art1{
-			margin-top:10px;
-		}
 
-	#rside h2{
-	    font-size:20px;
-	}
-	    #art1 li{
+	   #art1 li{
 	    margin-left:20px;
     	margin-top: 15px;
     	font-size:20px;
     	padding-left: 10px;
     	background:url(../img/10.jpg) no-repeat;
-	}
+	      }
     #art1 a:hover{
-    	color:black;}
+    	color:black;}		
+    /*通知公告*/
+
+   #lside{
+       background: url(../img/04.jpg) no-repeat;
+       background-position:10px 0px; 
+      }  
+   /*学习资料*/
+	#m1{
+		background:url(../img/07.jpg) no-repeat;
+        background-position: 10px 0px;
+		height:325px;
+	}
+    /*教育改革*/
+	#m2{
+		background:url(../img/08.jpg) no-repeat;
+		background-position: 10px 0px;
+		height:325px;
+	}
+    /*友情链接*/
+
+	.line1 li{
+		margin-top:5px;
+		float:left;
+	}
+	#zhan{
+		font-size:32px;
+		color:#027CA4;
+		font-weight:bold;
+		}
+	#m3{
+		height:325px;
+	} 
+
+
+	
+
+		#art1{
+			margin-top:10px;
+		}
+
+
+/*列表内容*/
     #art{
     	width:90%;
     	height:320px;
@@ -194,44 +201,8 @@
     #art a:hover{
     	color:black;
     }
-	#m1{
-		height:325px;
-        
-        float:left;
-	}
-	#m2{
-		height:325px;
-        float:left;
-	}
-	#m3{
-		margin-bottom:50px;
-		height:325px;
-       border:1px solid;
-        float:left;
-	}
-	.subtitle1 ul li{
-		text-align: center;
-		margin-left: 15px;
-		font-size:25px;
-	}
-	.line li{
-		float:left;
-	}
-	.subtitle1 a:hover{
-		color:blue;
-	}
-	.subtitle1{
-		height:41px;
-	
-		
-		}
-	#zhan{
-		font-size:32px;
-		color:#027CA4;
-		font-weight:bold;
-		border-bottom: 7px solid #0384A8;
-		}
 
+/*尾部*/
 	#footer{
 		margin-left: auto;
 		margin-right: auto;
@@ -246,18 +217,6 @@
     text-align: center;
     padding: 10px 0 10px 0;
     color:white;
-	}
-	#span1{
-		font-size:30px;
-		font-weight:bold;
-		font-family:"Microsoft Yahei";
-		color:#090909;
-
-	}
-	#span2{
-		font-size:20px;
-		color:#007BA5;
-		font-weight:bold;
 	}
 
 
