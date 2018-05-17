@@ -37,12 +37,14 @@
 		font-size:20px;
 		color:white;
 	}
+	#main{
+		width:1040px;
+		margin:0 auto;
+	}
 	#mian1{
 		margin-top: 10px;
 		height:263px;
-        position:relative; 
-        left:435px;  
-        right:435px;      
+        position:relative;    
 	}
 	#a1{
 		background: url(../images/03.jpg);
@@ -195,8 +197,6 @@
 		height:260px;
 		margin-top: 5px;
 		position:relative; 
-        left:435px; 
-        right:435px; 
 	}
 	#a2{
 		float:left;
@@ -276,10 +276,8 @@
 		margin-bottom: 15px;
 		height:40px;
     	position: relative;
-    	left:435px;
         width: 1040px;
         background: url(../images/18.jpg);
-
 	}
     #left{margin-right: 70px;
     	height:40px;
